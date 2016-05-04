@@ -1,0 +1,146 @@
+{
+    "manifestVersion": 1,
+    "id": "DnxTools",
+    "version": "0.1.0",
+    "name": "DNX Tools",
+    "publisher": "andremarques023",
+    "description": "Build and Release Tasks for .NET Execution Environment (DNX) projects.",
+    "categories": [
+        "Build and release"
+    ],
+    "tags": [
+        "ASP.NET 5",
+        "ASP.NET Core",
+        "Build",
+        "Commands",
+        "DNU",
+        "DNVM",
+        "DNX",
+        "Install",
+        "Pack",
+        "Packages",
+        "Publish",
+        "Restore",
+        "vNext"
+    ],
+    "content": {
+        "details": {
+            "path": "README.md"
+        },
+        "license": {
+            "path": "LICENSE.txt"
+        }        
+    },
+    "links": {
+        "getstarted": {
+            "uri": "https://github.com/andremarques023/vsts-extensions/tree/master/Tasks/Src/DnxTools"
+        }
+    },
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "icons": {
+        "default": "extension-icon.png"
+    },
+    "files": [
+        {
+            "path": "DnuBuild"
+        },
+        {
+            "path": "DnuPack"
+        },
+        {
+            "path": "DnuPublish"
+        },
+        {
+            "path": "DnuRestore"
+        },
+        {
+            "path": "DnvmInstall"
+        },
+        {
+            "path": "DnvmSetup"
+        },
+        {
+            "path": "DnxRun"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "DnxTools.DnuBuild",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "DnuBuild"
+            }
+        },
+        {
+            "id": "DnxTools.DnuPack",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "DnuPack"
+            }
+        },
+        {
+            "id": "DnxTools.DnuPublish",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "DnuPublish"
+            }
+        },
+        {
+            "id": "DnxTools.DnuRestore",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "DnuRestore"
+            }
+        },
+        {
+            "id": "DnxTools.DnvmInstall",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "DnvmInstall"
+            }
+        },
+        {
+            "id": "DnxTools.DnvmSetup",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "DnvmSetup"
+            }
+        },
+        {
+            "id": "DnxTools.DnxRun",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "DnxRun"
+            }
+        }
+    ],
+    "branding": {
+        "color": "rgb(92, 45, 145)",
+        "theme": "dark"
+    }
+}
