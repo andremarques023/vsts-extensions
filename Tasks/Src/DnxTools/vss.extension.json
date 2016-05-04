@@ -5,6 +5,7 @@
     "name": "DNX Tools",
     "publisher": "andremarques023",
     "description": "Build and Release Tasks for .NET Execution Environment (DNX) projects.",
+    "public": true,
     "categories": [
         "Build and release"
     ],
