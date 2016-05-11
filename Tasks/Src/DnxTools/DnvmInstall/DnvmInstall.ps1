@@ -19,7 +19,6 @@ Import-Module "Microsoft.TeamFoundation.DistributedTask.Task.Internal"
 [bool]$SetupVersionManager = Convert-String $SetupVersionManager Boolean
 if ($SetupVersionManager -eq $True) {
     & {
-        $branch = 'dev'
         $webClient = New-Object System.Net.WebClient
         $webClient.Proxy = [System.Net.WebRequest]::DefaultWebProxy
         $webClient.Proxy.Credentials = [System.Net.CredentialCache]::DefaultNetworkCredentials
@@ -34,8 +33,8 @@ if (!$dnvm) {
 
 [bool]$SkipNativeImages = Convert-String $SkipNativeImages Boolean
 if (($SkipNativeImages -eq $True)) {
-    & $env:USERPROFILE\.dnx\bin\dnvm install $VersionNuPkgOrAlias -a $Architecture -r $Runtime -OS $OS -Alias $Alias -f -p -NoNative
+    Invoke-Command -ScriptBlock { & $env:USERPROFILE\.dnx\bin\dnvm install $VersionNuPkgOrAlias -a $Architecture -r $Runtime -OS $OS -Alias $Alias -f -p -NoNative }
 }
 else {
-    & $env:USERPROFILE\.dnx\bin\dnvm install $VersionNuPkgOrAlias -a $Architecture -r $Runtime -OS $OS -Alias $Alias -f -p
+    Invoke-Command -ScriptBlock { & $env:USERPROFILE\.dnx\bin\dnvm install $VersionNuPkgOrAlias -a $Architecture -r $Runtime -OS $OS -Alias $Alias -f -p }
 }

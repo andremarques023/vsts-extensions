@@ -1,5 +1,4 @@
 & {
-    $branch = 'dev'
     $webClient = New-Object System.Net.WebClient
     $webClient.Proxy = [System.Net.WebRequest]::DefaultWebProxy
     $webClient.Proxy.Credentials = [System.Net.CredentialCache]::DefaultNetworkCredentials
