@@ -34,6 +34,7 @@ This task installs a runtime version of the .NET Execution Environment (DNX) usi
 * Set an alias to the installed runtime.
 * The operating system that the runtime targets (Windows, OSX, Darwin or Linux).
 * Skip generation of native images.
+* Setup the version manager (DNVM).
 
 ## DNU Build
 
