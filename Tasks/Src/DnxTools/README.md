@@ -1,4 +1,5 @@
-#DNX Tools for .NET Execution Environment (DNX) projects.
+# DNX Tools for .NET Execution Environment (DNX) projects.
+![Build Status](https://andremarques023.visualstudio.com/_apis/public/build/definitions/c98afab6-e9a0-4e74-85eb-4d27f9829548/24/badge)
 
 Build, pack and publish projects. Install, list and restore application dependencies. Add and remove commands. Manage local and remote packages folders. The DNX Tools extension enables continuous delivery workflows for ASP.NET Core projects using DNX tooling, making it available for your builds and releases.
 
@@ -8,7 +9,7 @@ Note: The DNX is being retired in favor of the new dotnet CLI command line tools
 * http://dotnet.github.io/getting-started/
 * http://github.com/dotnet/cli
 
-##Usage
+## Usage
 
 This extension installs the following tasks:
 
