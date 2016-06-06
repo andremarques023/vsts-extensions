@@ -1,3 +1,4 @@
+[CmdletBinding()]
 param (
     [string]$VersionNuPkgOrAlias = "latest",
     [string]$Architecture = "x86",
@@ -32,7 +33,7 @@ if (!$dnvm) {
 }
 
 [bool]$SkipNativeImages = Convert-String $SkipNativeImages Boolean
-if (($SkipNativeImages -eq $True)) {
+if ($SkipNativeImages -eq $True) {
     Invoke-Command -ScriptBlock { & $env:USERPROFILE\.dnx\bin\dnvm install $VersionNuPkgOrAlias -a $Architecture -r $Runtime -OS $OS -Alias $Alias -f -p -NoNative }
 }
 else {
