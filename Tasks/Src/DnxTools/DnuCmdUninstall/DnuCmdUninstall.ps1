@@ -1,7 +1,7 @@
 [CmdletBinding()]
 param (
-    [string]$ProjectFileOrFolder = $Env:BUILD_SOURCESDIRECTORY,
-    [string]$Arguments
+    [string]$CommandName,
+    [string]$NoPurge
 )
 
 Write-Verbose "Entering script $MyInvocation.MyCommand.Name"
@@ -17,5 +17,10 @@ if (!$dnu) {
     throw ("DNX Utility tool not found")
 }
 
-$Arguments = "restore $ProjectFileOrFolder $Arguments"
+$Arguments = "commands uninstall $CommandName"
+[bool]$NoPurge = Convert-String $NoPurge Boolean
+if ($NoPurge) {
+    $Arguments += " --no-purge"
+}
+
 Invoke-Tool -Path $dnu.Path -Arguments $Arguments

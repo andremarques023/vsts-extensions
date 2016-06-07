@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "DnxTools",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "name": "DNX Tools",
     "publisher": "andremarques023",
     "description": "Build and Release Tasks for .NET Execution Environment (DNX) projects.",
@@ -50,6 +50,12 @@
             "path": "DnuBuild"
         },
         {
+            "path": "DnuCmdInstall"
+        },
+        {
+            "path": "DnuCmdUninstall"
+        },
+        {
             "path": "DnuPack"
         },
         {
@@ -77,6 +83,26 @@
             ],
             "properties": {
                 "name": "DnuBuild"
+            }
+        },
+        {
+            "id": "DnxTools.DnuCmdInstall",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "DnuCmdInstall"
+            }
+        },
+        {
+            "id": "DnxTools.DnuCmdUninstall",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "DnuCmdUninstall"
             }
         },
         {

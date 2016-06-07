@@ -1,7 +1,9 @@
 [CmdletBinding()]
 param (
-    [string]$ProjectFileOrFolder = $Env:BUILD_SOURCESDIRECTORY,
-    [string]$Arguments
+    [string]$PackageName,
+    [string]$PackageVersion,
+    [string]$Overwrite,
+    [string]$NoCache
 )
 
 Write-Verbose "Entering script $MyInvocation.MyCommand.Name"
@@ -17,5 +19,15 @@ if (!$dnu) {
     throw ("DNX Utility tool not found")
 }
 
-$Arguments = "restore $ProjectFileOrFolder $Arguments"
+$Arguments = "commands install $PackageName $PackageVersion"
+[bool]$Overwrite = Convert-String $Overwrite Boolean
+if ($Overwrite) {
+    $Arguments += " --overwrite"
+}
+
+[bool]$NoCache = Convert-String $NoCache Boolean
+if ($NoCache) {
+    $Arguments += " --no-cache"
+}
+
 Invoke-Tool -Path $dnu.Path -Arguments $Arguments

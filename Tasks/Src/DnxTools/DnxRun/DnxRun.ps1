@@ -1,3 +1,4 @@
+[CmdletBinding()]
 param (
     [string]$ProjectFileOrFolder = $Env:BUILD_SOURCESDIRECTORY,
     [string]$DnxArguments,
