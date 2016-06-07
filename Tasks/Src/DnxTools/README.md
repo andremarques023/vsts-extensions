@@ -16,6 +16,8 @@ This extension installs the following tasks:
 * DNVM Setup - Installs the .NET Version Manager into the user profile directory.
 * DNVM Install - Installs a runtime version of the .NET Execution Environment (DNX).
 * DNU Build - Produces assemblies for the project in given directory.
+* DNU Commands Install - Installs application commands.
+* DNU Commands Uninstall - Uninstalls application commands.
 * DNU Pack - Builds NuGet packages for the project in given directory.
 * DNU Publish - Packages the application into a self-contained directory that can be launched.
 * DNU Restore - Restores application dependencies, adding them to the packages directory.
@@ -45,6 +47,22 @@ This task produces assemblies for a project. The following options are available
 * Arguments to be passed to the build command.
 * Restore the aplication dependencies before the build.
 * Set the build number as the pre-release suffix and DNX build version.
+
+## DNU Commands Install
+
+This task installs application commands. The following options are available for installing commands:
+
+* The name of the application package.
+* The version of the application package.
+* Overwrite package and conflicting commands.
+* Do not use local cache.
+
+## DNU Commands Uninstall
+
+This task uninstalls application commands. The following options are available for uninstalling commands:
+
+* The name of the command to uninstall.
+* Do not try to remove orphaned packages.
 
 ## DNU Pack
 
