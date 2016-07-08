@@ -1,5 +1,5 @@
 # Diagnostic Tasks for Build and Release.
-![Build Status](https://andremarques023.visualstudio.com/_apis/public/build/definitions/c98afab6-e9a0-4e74-85eb-4d27f9829548/24/badge)
+![Build Status](https://andremarques023.visualstudio.com/_apis/public/build/definitions/c98afab6-e9a0-4e74-85eb-4d27f9829548/24/badge "Build Status")
 
 This extension provides diagnostic tasks to help you diagnose and profile build or release definitions. With these tasks, you can gather information (such as variable values) and troubleshoot common issues during the different stages of your pipeline.
 
