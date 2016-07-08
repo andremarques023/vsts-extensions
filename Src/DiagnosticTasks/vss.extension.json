@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "DiagnosticTasks",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "name": "Diagnostic Tasks",
     "publisher": "andremarques023",
     "description": "Diagnostic Tasks for Build and Release.",
@@ -27,7 +27,7 @@
     },
     "links": {
         "getstarted": {
-            "uri": "https://github.com/andremarques023/vsts-extensions/tree/master/Tasks/Src/DiagnosticTasks"
+            "uri": "https://github.com/andremarques023/vsts-extensions/tree/master/Src/DiagnosticTasks"
         }
     },
     "targets": [

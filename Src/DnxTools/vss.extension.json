@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "DnxTools",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "name": "DNX Tools",
     "publisher": "andremarques023",
     "description": "Build and Release Tasks for .NET Execution Environment (DNX) projects.",
@@ -34,7 +34,7 @@
     },
     "links": {
         "getstarted": {
-            "uri": "https://github.com/andremarques023/vsts-extensions/tree/master/Tasks/Src/DnxTools"
+            "uri": "https://github.com/andremarques023/vsts-extensions/tree/master/Src/DnxTools"
         }
     },
     "targets": [
