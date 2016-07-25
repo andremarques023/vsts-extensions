@@ -30,6 +30,11 @@ if (commonVariables === 'true') {
     logVariables('Common');
 }
 
+var releaseVariables = tl.getPathInput('releaseVariables', false);
+if (releaseVariables === 'true') {
+    logVariables('Release');
+}
+
 var systemVariables = tl.getPathInput('systemVariables', false);
 if (systemVariables === 'true') {
     logVariables('System');
