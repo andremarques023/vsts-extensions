@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "DiagnosticTasks",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "name": "Diagnostic Tasks",
     "publisher": "andremarques023",
     "description": "Diagnostic Tasks for Build and Release.",
