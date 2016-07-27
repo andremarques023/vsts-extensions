@@ -3,6 +3,7 @@ param (
     [string]$AgentVariables,
     [string]$BuildVariables,
     [string]$CommonVariables,
+    [string]$ReleaseVariables,
     [string]$SystemVariables
 )
 
@@ -39,6 +40,11 @@ if ($BuildVariables) {
 [bool]$CommonVariables = Convert-String $CommonVariables Boolean
 if ($CommonVariables) {
     & $logVariables -VariableKind "Common"
+}
+
+[bool]$ReleaseVariables = Convert-String $ReleaseVariables Boolean
+if ($ReleaseVariables) {
+    & $logVariables -VariableKind "Release"
 }
 
 [bool]$SystemVariables = Convert-String $SystemVariables Boolean
