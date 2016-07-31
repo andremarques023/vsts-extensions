@@ -7,8 +7,15 @@ This extension provides diagnostic tasks to help you diagnose and profile build 
 
 Currently, this extension has the following tasks:
 
-* Log Variables - Logs predefined variables provided by Build or Release Management to the console.
-* Update Build Number - Updates the build number for the current build.
+* Add Build Tag - Add a tag for the current build.
+* Log Variables - Log predefined variables provided by Build or Release Management to the console.
+* Update Build Number - Update the build number for the current build.
+
+## Add Build Tag
+
+Builds can be tagged for easy searching. This task adds a tag for the current build. The following options are available: 
+
+* Tag - The tag to add to the build.
 
 ## Log Variables
 
@@ -26,6 +33,6 @@ This task logs these variables to the console. The following options are availab
 
 ## Update Build Number
 
-This task updates the build number. It uses a build logging command to emit the new number via standard output. The following options are available: 
+This task updates the build number. It uses a logging command to emit the new number via standard output. The following options are available: 
 
 * Build number - The build number to be set for the current build.
