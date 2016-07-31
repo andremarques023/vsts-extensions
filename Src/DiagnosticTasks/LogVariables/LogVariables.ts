@@ -1,7 +1,9 @@
 var path = require('path');
 var tl = require('vsts-task-lib/task');
 
-tl.setResourcePath(path.join(__dirname, 'task.json'));
+tl.setResourcePath(
+    path.join(__dirname, 'task.json')
+);
 
 function logVariables(variableKind) {
     console.log('\t******************************************************************************');

@@ -8,6 +8,7 @@ This extension provides diagnostic tasks to help you diagnose and profile build 
 Currently, this extension has the following tasks:
 
 * Log Variables - Logs predefined variables provided by Build or Release Management to the console.
+* Update Build Number - Updates the build number for the current build.
 
 ## Log Variables
 
@@ -23,4 +24,8 @@ This task logs these variables to the console. The following options are availab
 
 <sub>Note: Variable values are automatically logged when a release is in progress (at the Logs hub) by Release Management.</sub>
 
-More information on variables [here](https://www.visualstudio.com/docs/build/define/variables#predefined-variables).
+## Update Build Number
+
+This task updates the build number. It uses a build logging command, to emit the new number via standard output. The following options are available: 
+
+* Build number - The build number to be set for the current build.
