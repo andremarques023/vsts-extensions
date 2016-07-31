@@ -26,6 +26,6 @@ This task logs these variables to the console. The following options are availab
 
 ## Update Build Number
 
-This task updates the build number. It uses a build logging command, to emit the new number via standard output. The following options are available: 
+This task updates the build number. It uses a build logging command to emit the new number via standard output. The following options are available: 
 
 * Build number - The build number to be set for the current build.
