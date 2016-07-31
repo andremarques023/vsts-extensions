@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
-    [string]$BuildNumber
+    [string]$Tag
 )
 
 Write-Verbose "Entering script $MyInvocation.MyCommand.Name"
@@ -9,4 +9,4 @@ foreach ($key in $PSBoundParameters.Keys) {
     Write-Verbose ($key + ' = ' + $PSBoundParameters[$key])
 }
 
-Write-Host "##vso[build.updatebuildnumber]$BuildNumber"
+Write-Host "##vso[build.addbuildtag]$Tag"
