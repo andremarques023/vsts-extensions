@@ -8,6 +8,7 @@ This extension provides diagnostic tasks to help you diagnose and profile build 
 Currently, this extension has the following tasks:
 
 * Add Build Tag - Add a tag for the current build.
+* Attach Summary Markdown - Upload and attach summary markdown section to the current timeline record.
 * Log Variables - Log predefined variables provided by Build or Release Management to the console.
 * Update Build Number - Update the build number for the current build.
 
@@ -16,6 +17,13 @@ Currently, this extension has the following tasks:
 Builds can be tagged for easy searching. This task adds a tag for the current build. The following options are available: 
 
 * Tag - The tag to add to the build.
+
+## Attach Summary Markdown
+
+Markdown based sections can be added to both Build and Release summary pages. This task uploads and attach summary sections to the Build or Release timeline record. The following options are available: 
+
+* Section name - The summary section name.
+* Markdown file path - Relative path from the repository root to the markdown file.
 
 ## Log Variables
 
