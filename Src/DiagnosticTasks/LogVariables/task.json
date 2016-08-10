@@ -13,7 +13,7 @@
   "version": {
     "Major": "0",
     "Minor": "1",
-    "Patch": "3"
+    "Patch": "4"
   },
   "minimumAgentVersion": "1.95.0",
   "instanceNameFormat": "Log Variables",
@@ -65,7 +65,6 @@
     },
     "PowerShell": {
       "target": "$(currentDirectory)\\LogVariables.ps1",
-      "argumentFormat": "",
       "workingDirectory": "$(currentDirectory)"
     }
   }
