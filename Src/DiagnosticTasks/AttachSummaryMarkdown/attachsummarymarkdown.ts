@@ -7,7 +7,7 @@ async function run() {
         console.log(`##vso[task.addattachment type=Distributedtask.Core.Summary;name=${sectionName};]${markdownFilePath}`);
     } catch (error) {
         tl.setResult(tl.TaskResult.Failed, error.message);
-    }    
+    }
 }
 
 run();

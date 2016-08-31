@@ -14,6 +14,6 @@
   },
   "homepage": "https://github.com/andremarques023/vsts-extensions#readme",
   "dependencies": {
-    "vsts-task-lib": "^0.9.8"
+    "vsts-task-lib": "^0.9.12"
   }
 }

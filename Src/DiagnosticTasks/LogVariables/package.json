@@ -1,8 +1,8 @@
 {
-  "name": "updatebuildnumber",
+  "name": "logvariables",
   "version": "1.0.0",
-  "description": "Updates the build number for the current build.",
-  "main": "updatebuildnumber.js",
+  "description": "Logs predefined variables provided by Build or Release Management to the console.",
+  "main": "logvariables.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andremarques023/vsts-extensions.git"
