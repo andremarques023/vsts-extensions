@@ -1,0 +1,19 @@
+{
+  "name": "updatebuildnumber",
+  "version": "1.0.0",
+  "description": "Updates the build number for the current build.",
+  "main": "updatebuildnumber.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andremarques023/vsts-extensions.git"
+  },
+  "author": "André Marques de Araújo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andremarques023/vsts-extensions/issues"
+  },
+  "homepage": "https://github.com/andremarques023/vsts-extensions#readme",
+  "dependencies": {
+    "vsts-task-lib": "^0.9.8"
+  }
+}
