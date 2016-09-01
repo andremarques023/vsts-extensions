@@ -1,0 +1,19 @@
+{
+  "name": "addbuildtag",
+  "version": "1.0.0",
+  "description": "Add a tag for the current build.",
+  "main": "addbuildtag.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andremarques023/vsts-extensions.git"
+  },
+  "author": "André Marques de Araújo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andremarques023/vsts-extensions/issues"
+  },
+  "homepage": "https://github.com/andremarques023/vsts-extensions#readme",
+  "dependencies": {
+    "vsts-task-lib": "^0.9.12"
+  }
+}
