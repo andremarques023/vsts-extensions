@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "DiagnosticTasks",
-    "version": "0.2.4",
+    "version": "0.2.5",
     "name": "Diagnostic Tasks",
     "publisher": "andremarques023",
     "description": "Diagnostic Tasks for Build and Release.",
@@ -26,7 +26,7 @@
         },
         "license": {
             "path": "LICENSE.txt"
-        }        
+        }
     },
     "links": {
         "getstarted": {
