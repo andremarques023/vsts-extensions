@@ -1,7 +1,7 @@
 import tl = require('vsts-task-lib/task');
 
 export class LogVariables {
-    static log(variableKind: string) {
+    private static log(variableKind: string) {
         console.log('\t******************************************************************************');
         console.log(`\tLogging ${variableKind} variables`);
         console.log('\t******************************************************************************');
