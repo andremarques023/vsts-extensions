@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "DiagnosticTasks",
-    "version": "0.2.8",
+    "version": "0.2.9",
     "name": "Diagnostic Tasks",
     "publisher": "andremarques023",
     "description": "Diagnostic Tasks for Build and Release.",
@@ -30,7 +30,7 @@
     },
     "links": {
         "getstarted": {
-            "uri": "https://github.com/andremarques023/vsts-extensions/tree/master/Src/DiagnosticTasks"
+            "uri": "https://github.com/andremarques023/vsts-extensions/tree/master/DiagnosticTasks"
         }
     },
     "targets": [
@@ -43,16 +43,16 @@
     },
     "files": [
         {
-            "path": "AddBuildTag"
+            "path": "Tasks/AddBuildTag"
         },
         {
-            "path": "AttachSummaryMarkdown"
+            "path": "Tasks/AttachSummaryMarkdown"
         },
         {
-            "path": "LogVariables"
+            "path": "Tasks/LogVariables"
         },
         {
-            "path": "UpdateBuildNumber"
+            "path": "Tasks/UpdateBuildNumber"
         }
     ],
     "contributions": [
