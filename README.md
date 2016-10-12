@@ -9,7 +9,7 @@ Diagnostic Tasks for Build and Release.
 
 |Get it for &rarr;|Team Services|Team Foundation Server|
 |:---:|:---:|:---:|
-|<a href="https://github.com/andremarques023/vsts-extensions/tree/master/Src/DiagnosticTasks"><img src="https://raw.githubusercontent.com/andremarques023/vsts-extensions/master/Src/DiagnosticTasks/extension-icon.png" width="32" title="Diagnostic Tasks"></a>|[Install][Diagnostic Tasks link]|[Download][Diagnostic Tasks link]|
+|<a href="https://github.com/andremarques023/vsts-extensions/tree/master/DiagnosticTasks"><img src="https://raw.githubusercontent.com/andremarques023/vsts-extensions/master/DiagnosticTasks/extension-icon.png" width="32" title="Diagnostic Tasks"></a>|[Install][Diagnostic Tasks link]|[Download][Diagnostic Tasks link]|
 
 [Diagnostic Tasks link]: https://marketplace.visualstudio.com/items?itemName=andremarques023.DiagnosticTasks "Visual Studio Marketplace"
 
@@ -19,6 +19,6 @@ Build and Release Tasks for .NET Execution Environment (DNX) projects.
 
 |Get it for &rarr;|Team Services|Team Foundation Server|
 |:---:|:---:|:---:|
-|<a href="https://github.com/andremarques023/vsts-extensions/tree/master/Src/DnxTools"><img src="https://raw.githubusercontent.com/andremarques023/vsts-extensions/master/Src/DnxTools/extension-icon.png" width="32" title="DNX Tools"></a>|[Install][DNX Tools link]|[Download][DNX Tools link]|
+|<a href="https://github.com/andremarques023/vsts-extensions/tree/master/DnxTools"><img src="https://raw.githubusercontent.com/andremarques023/vsts-extensions/master/DnxTools/extension-icon.png" width="32" title="DNX Tools"></a>|[Install][DNX Tools link]|[Download][DNX Tools link]|
 
 [DNX Tools link]: https://marketplace.visualstudio.com/items?itemName=andremarques023.DnxTools "Visual Studio Marketplace"
