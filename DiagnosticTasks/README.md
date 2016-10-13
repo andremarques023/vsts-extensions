@@ -1,5 +1,6 @@
 # Diagnostic Tasks for Build and Release.
-![Build Status](https://andremarques023.visualstudio.com/_apis/public/build/definitions/c98afab6-e9a0-4e74-85eb-4d27f9829548/24/badge "Build Status")
+![Build Status](https://andremarques023.visualstudio.com/_apis/public/build/definitions/c98afab6-e9a0-4e74-85eb-4d27f9829548/24/badge "VSTS Build Status")
+![Build Status](https://ci.appveyor.com/api/projects/status/f1k6thlnwuyg1h3m?svg=true "AppVeyor Build Status")
 
 This extension provides diagnostic tasks to help you diagnose and profile build or release definitions. With these tasks, you can gather information (such as variable values) and troubleshoot common issues during the different stages of your pipeline.
 
@@ -10,6 +11,7 @@ Currently, this extension has the following tasks:
 * Add Build Tag - Add a tag for the current build.
 * Attach Summary Markdown - Upload and attach summary markdown section to the current timeline record.
 * Log Variables - Log predefined variables provided by Build or Release Management to the console.
+* Set Variable - Sets a variable to be exposed to the following tasks as an environment variable.
 * Update Build Number - Update the build number for the current build.
 
 ## Add Build Tag
@@ -17,6 +19,8 @@ Currently, this extension has the following tasks:
 Builds can be tagged for easy searching. This task adds a tag for the current build. The following options are available: 
 
 * Tag - The tag to add to the build.
+
+![Add Build Tag](https://github.com/andremarques023/vsts-extensions/raw/master/DiagnosticTasks/Images/addbuildtag-task-1.png)
 
 ## Attach Summary Markdown
 
@@ -37,10 +41,21 @@ This task logs these variables to the console. The following options are availab
 * Release variables.
 * System variables.
 
+![Log Variables](https://github.com/andremarques023/vsts-extensions/raw/master/DiagnosticTasks/Images/logvariables-task-1.png)
+
 <sub>Note: Variable values are automatically logged when a release is in progress (at the Logs hub) by Release Management.</sub>
+
+## Set Variable
+
+This task sets a variable. The first task can set a variable, and following tasks are able to use the variable. The following options are available: 
+
+* Name - The name of the variable to be set.
+* Value - The value to be set.
 
 ## Update Build Number
 
 This task updates the build number. It uses a logging command to emit the new number via standard output. The following options are available: 
 
 * Build number - The build number to be set for the current build.
+
+![Update Build Number](https://github.com/andremarques023/vsts-extensions/raw/master/DiagnosticTasks/Images/updatebuildnumber-task-1.png)

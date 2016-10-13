@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "DiagnosticTasks",
-    "version": "0.2.10",
+    "version": "0.3.0",
     "name": "Diagnostic Tasks",
     "publisher": "andremarques023",
     "description": "Diagnostic Tasks for Build and Release.",
@@ -19,6 +19,17 @@
         "Logging",
         "Release",
         "Utility"
+    ],
+    "screenshots": [
+        {
+            "path": "Images/addbuildtag-task-2.png"
+        },
+        {
+            "path": "Images/logvariables-task-2.png"
+        },
+        {
+            "path": "Images/updatebuildnumber-task-2.png"
+        }
     ],
     "content": {
         "details": {
@@ -75,6 +86,16 @@
             ],
             "properties": {
                 "name": "Tasks/LogVariables"
+            }
+        },
+        {
+            "id": "DiagnosticTasks.SetVariable",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "Tasks/SetVariable"
             }
         },
         {

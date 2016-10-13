@@ -13,9 +13,9 @@
   "version": {
     "Major": "1",
     "Minor": "0",
-    "Patch": "0"
+    "Patch": "3"
   },
-  "instanceNameFormat": "Log Variables",
+  "instanceNameFormat": "Log variables",
   "inputs": [
     {
       "name": "agent",
@@ -60,7 +60,7 @@
   ],
   "execution": {
     "Node": {
-      "target": "logvariables.js"
+      "target": "logVariables.js"
     }
   }
 }

@@ -14,9 +14,9 @@
   "version": {
     "Major": "1",
     "Minor": "0",
-    "Patch": "0"
+    "Patch": "3"
   },
-  "instanceNameFormat": "Attach Summary Markdown Section: $(sectionName)",
+  "instanceNameFormat": "Attach summary markdown section: $(sectionName)",
   "inputs": [
     {
       "name": "sectionName",
@@ -37,7 +37,7 @@
   ],
   "execution": {
     "Node": {
-      "target": "attachsummarymarkdown.js"
+      "target": "attachSummaryMarkdown.js"
     }
   }
 }
