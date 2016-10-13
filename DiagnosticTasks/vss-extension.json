@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "DiagnosticTasks",
-    "version": "0.2.9",
+    "version": "0.2.10",
     "name": "Diagnostic Tasks",
     "publisher": "andremarques023",
     "description": "Diagnostic Tasks for Build and Release.",
@@ -43,16 +43,7 @@
     },
     "files": [
         {
-            "path": "Tasks/AddBuildTag"
-        },
-        {
-            "path": "Tasks/AttachSummaryMarkdown"
-        },
-        {
-            "path": "Tasks/LogVariables"
-        },
-        {
-            "path": "Tasks/UpdateBuildNumber"
+            "path": "Tasks"
         }
     ],
     "contributions": [
@@ -63,7 +54,7 @@
                 "ms.vss-distributed-task.tasks"
             ],
             "properties": {
-                "name": "AddBuildTag"
+                "name": "Tasks/AddBuildTag"
             }
         },
         {
@@ -73,7 +64,7 @@
                 "ms.vss-distributed-task.tasks"
             ],
             "properties": {
-                "name": "AttachSummaryMarkdown"
+                "name": "Tasks/AttachSummaryMarkdown"
             }
         },
         {
@@ -83,7 +74,7 @@
                 "ms.vss-distributed-task.tasks"
             ],
             "properties": {
-                "name": "LogVariables"
+                "name": "Tasks/LogVariables"
             }
         },
         {
@@ -93,7 +84,7 @@
                 "ms.vss-distributed-task.tasks"
             ],
             "properties": {
-                "name": "UpdateBuildNumber"
+                "name": "Tasks/UpdateBuildNumber"
             }
         }
     ],
