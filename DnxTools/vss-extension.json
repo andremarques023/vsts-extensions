@@ -34,7 +34,7 @@
     },
     "links": {
         "getstarted": {
-            "uri": "https://github.com/andremarques023/vsts-extensions/tree/master/Src/DnxTools"
+            "uri": "https://github.com/andremarques023/vsts-extensions/tree/master/DnxTools"
         }
     },
     "targets": [
