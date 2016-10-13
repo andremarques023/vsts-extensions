@@ -1,4 +1,4 @@
-import tl = require('vsts-task-lib/task');
+import * as tl from 'vsts-task-lib/task';
 
 export class AttachSummaryMarkdown {
     public static async runTask() {
