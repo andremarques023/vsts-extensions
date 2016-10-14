@@ -18,7 +18,7 @@ Builds can be tagged for easy searching. This task adds a tag for the current bu
 
 * Tag - The tag to add to the build.
 
-![Add Build Tag](Images/addbuildtag-task-1.png)
+![Add Build Tag](https://github.com/andremarques023/vsts-extensions/raw/master/DiagnosticTasks/Images/addbuildtag-task-1.png)
 
 ## Attach Summary Markdown
 
@@ -39,7 +39,7 @@ This task logs these variables to the console. The following options are availab
 * Release variables.
 * System variables.
 
-![Log Variables](Images/logvariables-task-1.png)
+![Log Variables](https://github.com/andremarques023/vsts-extensions/raw/master/DiagnosticTasks/Images/logvariables-task-1.png)
 
 <sub>Note: Variable values are automatically logged when a release is in progress (at the Logs hub) by Release Management.</sub>
 
