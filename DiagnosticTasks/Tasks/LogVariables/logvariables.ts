@@ -1,4 +1,4 @@
-import tl = require('vsts-task-lib/task');
+import * as tl from 'vsts-task-lib/task';
 
 export class LogVariables {
     private static log(variableKind: string) {
