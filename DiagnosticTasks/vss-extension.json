@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "DiagnosticTasks",
-    "version": "0.2.11",
+    "version": "0.2.12",
     "name": "Diagnostic Tasks",
     "publisher": "andremarques023",
     "description": "Diagnostic Tasks for Build and Release.",
@@ -22,10 +22,10 @@
     ],
     "screenshots": [
         {
-            "path": "Images/addbuildtag-task.png"
+            "path": "Images/addbuildtag-task-2.png"
         },
         {
-            "path": "Images/logvariables-task.png"
+            "path": "Images/logvariables-task-2.png"
         }
     ],
     "content": {

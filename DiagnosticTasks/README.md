@@ -18,6 +18,8 @@ Builds can be tagged for easy searching. This task adds a tag for the current bu
 
 * Tag - The tag to add to the build.
 
+![Add Build Tag](Images/addbuildtag-task-1.png)
+
 ## Attach Summary Markdown
 
 Markdown based sections can be added to both Build and Release summary pages. This task uploads and attach summary sections to the Build or Release timeline record. The following options are available: 
@@ -36,6 +38,8 @@ This task logs these variables to the console. The following options are availab
 * Common variables.
 * Release variables.
 * System variables.
+
+![Log Variables](Images/logvariables-task-1.png)
 
 <sub>Note: Variable values are automatically logged when a release is in progress (at the Logs hub) by Release Management.</sub>
 
