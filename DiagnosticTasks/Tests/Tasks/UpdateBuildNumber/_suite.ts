@@ -2,7 +2,7 @@ import * as Assert from "assert";
 import * as MockTest from "vsts-task-lib/mock-test";
 import * as Path from "path";
 
-describe("SetVariable", () => {
+describe("UpdateBuildNumber", () => {
     describe("When Build Number Is Not Set", () => {
         it("It Should Fail", () => {
             // Arrange
@@ -21,7 +21,7 @@ describe("SetVariable", () => {
     });
 });
 
-describe("SetVariable", () => {
+describe("UpdateBuildNumber", () => {
     describe("When Build Number Is Set", () => {
         it("It Should Update Build Number", () => {
             // Arrange
