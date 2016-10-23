@@ -1,8 +1,8 @@
 {
-  "name": "addbuildtag",
-  "version": "1.0.2",
-  "description": "Add a tag for the current build.",
-  "main": "addbuildtag.js",
+  "name": "setvariable",
+  "version": "1.0.0",
+  "description": "Sets a variable to be exposed to the following tasks as an environment variable.",
+  "main": "setvariable.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andremarques023/vsts-extensions.git"

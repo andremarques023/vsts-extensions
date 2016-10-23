@@ -1,6 +1,6 @@
 {
   "name": "logvariables",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Logs predefined variables provided by Build or Release Management to the console.",
   "main": "logvariables.js",
   "repository": {
@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/andremarques023/vsts-extensions/issues"
   },
-  "homepage": "https://github.com/andremarques023/vsts-extensions#readme",
+  "homepage": "https://github.com/andremarques023/vsts-extensions/tree/master/DiagnosticTasks#diagnostic-tasks-for-build-and-release",
   "dependencies": {
     "vsts-task-lib": "^0.9.20"
   }

@@ -1,0 +1,23 @@
+{
+    "name": "attachsummarymarkdown",
+    "version": "1.0.3",
+    "description": "Upload and attach summary markdown section to the current timeline record.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/andremarques023/vsts-extensions.git"
+    },
+    "author": "André Marques de Araújo",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/andremarques023/vsts-extensions/issues"
+    },
+    "homepage": "https://github.com/andremarques023/vsts-extensions/tree/master/DiagnosticTasks#diagnostic-tasks-for-build-and-release",
+    "dependencies": {
+        "vsts-task-lib": "^0.9.20",
+        "mocha": "^3.1.2"
+    },
+    "scripts": {
+        "pretest": "npm install && typings install && tsc",
+        "test": "mocha _suite.js"
+    }
+}
