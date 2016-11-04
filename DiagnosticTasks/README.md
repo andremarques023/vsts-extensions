@@ -42,7 +42,7 @@ This task logs these variables to the console. The following options are availab
 
 ![Log Variables](https://github.com/andremarques023/vsts-extensions/raw/master/DiagnosticTasks/Images/logvariables-task-1.png)
 
-<sub>Note: Variable values are automatically logged when a release is in progress (at the Logs hub) by Release Management.</sub>
+> Note: Variable values are automatically logged when a release is in progress (at the Logs hub) by Release Management.
 
 ## Set Variable
 
