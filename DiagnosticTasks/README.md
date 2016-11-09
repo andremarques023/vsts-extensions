@@ -42,14 +42,14 @@ This task logs these variables to the console. The following options are availab
 
 ![Log Variables](https://github.com/andremarques023/vsts-extensions/raw/master/DiagnosticTasks/Images/logvariables-task-1.png)
 
-<sub>Note: Variable values are automatically logged when a release is in progress (at the Logs hub) by Release Management.</sub>
+>__Note:__ Variable values are automatically logged when a release is in progress (at the Logs hub) by Release Management.
 
 ## Set Variable
 
 This task sets a variable. The first task can set a variable, and following tasks are able to use the variable. The following options are available: 
 
-* Name - The name of the variable to be set.
-* Value - The value to be set.
+* Variable name - The name of the variable to be set.
+* Variable value - The value to be set.
 
 ## Update Build Number
 

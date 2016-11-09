@@ -5,9 +5,9 @@ Build, pack and publish projects. Install, list and restore application dependen
 
 For more information on what the .NET Execution Environment (DNX) is and how to use it, go to [docs.asp.net](https://docs.asp.net/en/latest).
 
-Note: The DNX is being retired in favor of the new dotnet CLI command line tools. See more:
-* http://dotnet.github.io/getting-started/
-* http://github.com/dotnet/cli
+>__Note:__ DNX and DNVM have been replaced by the new .NET CLI. See:
+> * http://dotnet.github.io/getting-started/
+> * http://github.com/dotnet/cli
 
 ## Usage
 
