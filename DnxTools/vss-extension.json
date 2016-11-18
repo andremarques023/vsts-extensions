@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "DnxTools",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "name": "DNX Tools",
     "publisher": "andremarques023",
     "description": "Build and Release Tasks for .NET Execution Environment (DNX) projects.",
